@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM arm32v7/debian:latest
 
 RUN apt-get update
 RUN apt-get install -y git build-essential openssl libssl-dev
